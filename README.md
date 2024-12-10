@@ -6,10 +6,15 @@ To create a data pipeline locally, which involves collecting data from external 
 This pipeline to be elevated to Cloud
 ## Languages and Libraries Used
 [SQL, Python, Pandas, Requests, datetime, pytz, sqlalchemy]
+
 ## Key Learnings
 - Data collection is to be done taking into account our goal. Depending on our goal dataset may varrie.
 - Data collection using API and storing it to SQL database.
 - Updating database considering what is static information and what is dynamic.
+- Creating SQL Instance and function on Google Cloud
+- Scheduling functions on Cloud to avoid human interference to collect data at regular interval of time.
+- Simulating Cloud Functions from local machine.
+  
 ## Challenges Overcame
 - Avoiding duplicating data in result data redundancy.
 - updating SQL database using python
